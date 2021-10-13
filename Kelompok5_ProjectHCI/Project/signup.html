@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="css/signup.css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/signup.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <br>
+    <h1 style="color:#3a3a3a">Signup</h1>
+    <form id="login-form">
+    <p id="personal-data">Personal data</p>
+
+    <input type="text" name="name" id="name-field" class="signup-form-field" placeholder="Full Name">
+    <input type="text" name="username" id="username-field" class="signup-form-field" placeholder="Username">
+    <br>
+    <input type="text" name="email" id="email-field" class="signup-form-field" placeholder="Email">
+    <input type="password" name="password" id="password-field" class="signup-form-field" placeholder="Password">
+<div id="password_info">
+<h4>Password and email must meet the following requirements:</h4>
+    <ul>
+        <li id="email" class="invalid">Email must contain <strong>@</strong> ,and <strong>.com</strong></li>
+        <li id="letter" class="invalid">At least <strong>one letter</strong></li>
+        <li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
+        <li id="number" class="invalid">At least <strong>one number</strong></li>
+        <li id="length" class="invalid">Be at least <strong>8 characters</strong></li>
+    </ul>
+</div>
+    <label>
+        <br>
+        <p id="personal-data">Package list</p>
+        <input type="radio" name="paket1"> paket1
+        <br>
+        <input type="radio" name="paket1"> paket2
+        <br>
+        <input type="radio" name="paket1"> paket3
+        <br>
+    </label>
+    <label>
+        <p id="personal-data">Read first</p>
+        <input type="checkbox" name="age"> I'm 18 year old and older
+        <br>
+        <input type="checkbox" name="agreelaw"> I'm agree with the 
+        <a href="https://www.11zon.com" target="_blank">
+            terms of service
+        </a>
+        <br>
+        <br>
+    </label>
+    <br>
+    <input type="submit" value="Signup" id="signup-form-submit" onclick="location.href='file:///C:/Users/edber/Downloads/HCI/verification.html'">
+    <br>
+    <br>
+    <br>
+    </form>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeTflix</title>
+    <link href="css/home.css" rel="stylesheet" type="text/css ">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/imageSlider.css" rel="stylesheet">
+</head>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/slider.js"></script>
+
+<header>
+    <!-- Header -->
+    <div class="logo">
+        <img src="img/logo.png" alt="LeTflix logo" class="logo">
+    </div>
+    <section class="LMenu">
+        <nav id="navbar" class="navigation" role="navigation">
+            <input id="icon" type="checkbox" />
+            <label class="hamburger" for="icon">
+                <div class="atas"></div>
+                <div class="tengah"></div>
+                <div class="bawah"></div>
+            </label>
+            <nav class="menu">
+                <a class="link" href="home.html">Home</a>
+                <a class="link" href="dramas.html">Dramas</a>
+                <a class="link" href="plan.html">Plans</a>
+                <a class="link" href="about.html">About us</a>
+                <a class="link" href="login.html">Subscription</a>
+            </nav>
+        </nav>
+    </section>
+</header>
+
+<body>
+    <section class="home">
+        <div class="container-home">
+            <h1 class="title">Screening your favorite movies
+                <span>Watch everything anywhere </span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container-slider">
+            <div class="poster">
+                <img src="img/img1.jpg">
+                <a href=""></a>
+            </div>
+            <div class="poster">
+                <img src="img/img2.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img3.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img4.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img5.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img6.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img7.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img8.jpg">
+            </div>
+            <div class="poster">
+                <img src="img/img9.jpg">
+            </div>
+
+            <button id="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button id="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <!-- bagian 1 -->
+        <div id="benefits1">
+            <article>
+                <h2 id="head1"> Watch everywhere.</h2>
+                <br>
+                <p id="text1">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </article>
+
+            <div>
+                <img src="img/satu.png" id="gambar-satu">
+                <br><br>
+            </div>
+        </div>
+
+
+        <!-- bagian 2 -->
+        <div id="benefits2">
+            <div>
+                <img src="img/dua.png" id="gambar-kedua">
+                <br><br>
+            </div>
+            <article>
+                <h2 id="head2"> Thousand of movies and TV Shows</h2>
+                <br>
+                <p id="text2">Explore our collection of up to 4000 movies and 1000 shows from around the world.</p>
+            </article>
+        </div>
+
+        <!-- bagian 3 -->
+        <div id="benefits3">
+            <article>
+                <h2 id="head3"> Exclusive TV Shows and Movies</h2>
+                <br>
+                <p id="text3">Enjoy our LeTflix Originals, movies and TV that only availabe in LeTflix.</p>
+            </article>
+
+            <div>
+                <img src="img/tiga.png" id="gambar-ketiga">
+                <br><br>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+<footer>
+    <div id="kiri">
+        <div id="copyright">
+            <h5>&copy; LeTflix. 2021. All Right Reserved.</h5>
+        </div>
+    </div>
+
+    <div class="sosmed">
+        <a href="ttps://www.instagram.com/">
+            <img src="img/instagram.png" id="insta">
+        </a>
+        <a href="ttps://www.youtube.com/">
+            <img src="img/youtube.png" id="youtube">
+        </a>
+
+    </div>
+</footer>
+
+</html>

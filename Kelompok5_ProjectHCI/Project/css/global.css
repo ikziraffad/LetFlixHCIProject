@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
+
+@font-face {
+    font-family: whitney-bold;
+    src: url(Font/whitneybold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: whitney-medium;
+    src: url(Font/whitneybook.otf);
+    font-weight: 400px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    width: 100%;
+    background-color: #21094E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px #1D0846; 
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.LMenu {
+    height: 100%;
+}
+
+/* Hamburger */
+.hamburger {
+    padding-top: 20px;
+    height: 45px;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.hamburger div {
+    background-color: white;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: 0.4s;
+}
+
+#icon {
+    display: none;
+}
+
+#icon:checked+.hamburger .atas {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: 22.5px;
+}
+
+#icon:checked+.hamburger .tengah {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -5px;
+}
+
+#icon:checked+.hamburger .bawah {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+#icon:checked~.menu {
+    height: 304px;
+}
+
+
+/* Menu */
+.menu {
+    width: 100%;
+    height: 100%;
+    background-color: #21094E;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    padding: 0;
+    list-style: none;
+    clear: both;
+    width: auto;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    position: relative;
+    z-index: 120;
+    padding-right: 30px;
+}
+
+.menu a {
+    height: 45px;
+    padding: 5px;
+    border: solid;
+    border-color: #E2C259;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    align-items: center;
+    color: white;
+}
+
+.link {
+    width: 100%;
+    font: 700 20px 'Barlow', sans-serif;
+}
+
+.link:hover {
+    background-color: #fff;
+    color: rgb(65, 56, 56);
+}
+
+/* footer */
+
+footer {
+    background-color: #21094E;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: solid 5px #1D0846; 
+    display: flex;
+}
+
+#copyright {
+    text-align: center;
+    align-items: center;
+}
+
+/* responsive*/
+@media (max-width: 900px) {
+    header {
+        display: flex;
+        width: 100%;
+    }
+} 
+
+/* Tablet Landscape /
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/ Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

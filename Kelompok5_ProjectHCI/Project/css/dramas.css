@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito', sans-serif;
+}
+
+body {
+    background-color: #21094E;
+}
+
+.nation{
+    color: white;
+    padding-left: 10%;
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.dramas {
+    flex-basis: 25%;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    color: #E2C259;
+}
+
+.dramas img {
+    width: 300px;
+}
+
+.dramas:hover {
+    box-shadow: 5px 5px 5px 0px #E2C259, 0px 6px 35px 0px #E2C259;
+    width: 17%;
+}
+
+.dramas img:hover {
+    width: 100%;
+}
+
+.container-drama button {
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: #FDC029;
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dramas img{
+        padding-left: 2%;
+    }
+    
+    .dramas img , 
+    .dramas h4,
+    .dramas p {
+        width:50%;
+        height:auto;
+        padding:auto;
+        font-size: 90%;
+    }
+}
+

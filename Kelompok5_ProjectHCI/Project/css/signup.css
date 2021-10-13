@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #23272a;
+}
+
+#main-holder {
+  width: 40%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px #99aab5;
+}
+
+#signup-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.signup-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.signup-form-field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+#signup-form-submit {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #7289da;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 3px 3px #99aab5
+}
+#personal-data{
+    width: 100%;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #99aab5;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #2c2f33
+}
+#password_info {
+    position:absolute;
+    right: 625px;
+    width:250px;
+    padding:10px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+}
+#password_info h4 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-weight:normal;
+}
+#password_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+.invalid {
+    padding-left:22px;
+    line-height:24px;
+    color:#ec3f41;
+}
+.valid {
+    padding-left:22px;
+    line-height:24px;
+    color:#3a7d34;
+}
+
+

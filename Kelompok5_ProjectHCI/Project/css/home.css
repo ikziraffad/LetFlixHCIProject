@@ -1,0 +1,174 @@
+body {
+
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Home */
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .8em;
+    color: #E2C259;
+}
+
+
+
+.container-home {
+    background-color: #21094E;
+    color: #E2C259;
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    border: solid 5px #1D0846;
+}
+
+/* Benefits Satu */
+#benefits1{
+    background-color: #21094E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: whitney-medium;
+    border: solid 5px #1D0846;
+}
+
+#benefits1>article {
+    margin-left: 10%;
+    text-align: left;
+    padding-right: 100px;
+}
+
+#head1 {
+    font-size: 40px;
+    font-family: whitney-bold;
+    color: #E2C259;
+}
+
+#text1 {
+    font-size: 30px;
+    font-family: whitney-bold;
+    color: white;
+}
+
+#gambar-satu {
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    max-height: 250px;
+    width: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+/* Benefits dua */
+#benefits2 {
+    background-color: #21094E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: whitney-medium;
+    border: solid 5px #1D0846;
+}
+
+#head2 {
+    font-size: 40px;
+    font-family: whitney-bold;
+    color: #E2C259;
+}
+
+#gambar-kedua {
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    max-height: 350px;
+    width: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+#benefits2>article {
+    margin-right: 10%;
+    text-align: right;
+    padding-left: 100px;
+}
+
+#text2 {
+    font-size: 30px;
+    font-family: whitney-bold;
+    color: white;
+}
+
+/* Benefits Tiga */
+#benefits3 {
+    background-color: #21094E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: whitney-medium;
+    border: solid 5px #1D0846;
+}
+
+#head3 {
+    font-size: 40px;
+    font-family: whitney-bold;
+    color: #E2C259;
+}
+
+#gambar-ketiga {
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    max-height: 250px;
+    width: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+#benefits3>article {
+    margin-left: 10%;
+    text-align: left;
+    padding-right: 100px;
+}
+
+#text3 {
+    font-size: 30px;
+    font-family: whitney-bold;
+    color: white;
+}
+
+/* Responsive */
+@media(min-width:900px) {
+    .logo {
+        float: left;
+    }
+
+    nav {
+        float: right;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .container {
+        font-size: 3rem;
+    }
+
+    .button {
+        font-size: 1.5rem;
+    }
+    .img{
+        width: 40%;
+    }
+}

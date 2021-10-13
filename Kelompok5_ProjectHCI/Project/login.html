@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login-page.css">
+  <script defer src="js/login-page.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <br>
+    <h1 style="color:#3a3a3a #7289da" id="login-header">Login</h1>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <label>
+        <input type="checkbox" name="remember"> Remember me
+        <br>
+        <br>
+      </label>
+      <input type="submit" value="Login" id="login-form-submit">
+      <br>
+      <a href="signup.html" target="_blank">
+        New? Click here to get started...
+      </a>
+      <br><br>
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
